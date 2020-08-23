@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.son {
+  position: absolute;
+  left: 30px;
+  border-radius: 100px;
+  background-color: grey;
+  margin: auto;
+}
+.profile{
+  text-align: center;
+  width: 50%;
+  margin: 50px auto 50px auto;
+  line-height: 2;
+}
+
+.app {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.QC1 {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.dtitle {
+  font-family: 'Sacramento', cursive;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  padding-top: 200px;
+  font-size: 5.625rem;
+  font-weight: bolder;
+  color: #66BFBF;
+  font-family: 'Sacramento', sans-serif;
+  line-height: 1;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: bold;
+  padding: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+p {
+  font-family: 'Montserrat', serif;
+  font-weight: bold;
+  color: #40514E;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+  border-width: 8px;
+  width: 5%;
+}
+
+.first-section {
+  position: relative;
+  margin-top: 0;
+  background-color: #E4F5F9;
+  padding: 10px;
+}
+
+
+.top-cloud {
+  position: absolute;
+  right: 350px;
+  top: 150px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left:300px;
+}
+
+.middle-section {
+  background-color: white;
+  margin: 0;
+}
+
+.btn {
+  background-color: #E4F5F9;
+  background-size: contain;
+  padding: 10px;
+  color: White;
+  background: #50BFA0;
+  border-radius: 10px;
+  font-family: 'Merriweather', serif;
+
+}
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+
+.skill-row {
+  text-align: left;
+  width: 50%;
+  margin: 50px auto 100px auto;
+  line-height: 2;
+}
+
+.bottom-section {
+  color: #66BFBF;
+  line-height: 5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: bolder;
+  background-color: #66BFBF;
+  padding:0 0 20px 0;
+    }
+.footer{
+  color: #EAF6F6;
+
+}
+.footer-links {
+  font-size: 20px;
+  text-decoration: none;
+  margin: 10px 20px;
+  color: #056676;
+}
+.footer-links:hover{
+  color: #EAF6F6;
+}
